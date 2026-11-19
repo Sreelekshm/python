@@ -25,6 +25,9 @@
 
 
 
+
+
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -66,11 +69,11 @@ import pandas as pd
 
 
 
-data={
-    'Age':[22,25,28,30,35],
-    'Salary':[25000,30000,40000,45000,60000],
-    'Experience':[1,2,4,5,8]
-}
-df=pd.DataFrame(data)
-sns.pairplot(df)
-plt.show()
+# data={
+#     'Age':[22,25,28,30,35],
+#     'Salary':[25000,30000,40000,45000,60000],
+#     'Experience':[1,2,4,5,8]
+# }
+# df=pd.DataFrame(data)
+# sns.pairplot(df)
+# plt.show()
